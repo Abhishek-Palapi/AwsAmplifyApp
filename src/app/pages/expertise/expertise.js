@@ -19,7 +19,7 @@ const Expertise = () => {
   return <div>
       {skills.map(skill =>{
           return(
-              <div>
+              <div style={{width:'140px', height:'20px', border:'2px solid', background:'litegrey'}}>
                   {
                       skill
                   }
